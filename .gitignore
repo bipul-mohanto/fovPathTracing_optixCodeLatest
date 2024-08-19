@@ -1,0 +1,9 @@
+BUILD/*
+Hidden/
+hidden_latest/
+openxr
+out
+openxr_loader.lib
+openxr_loaderd.lib
+optixir_CMakeLists.txt
+optixir_sampleConfig.h.in
