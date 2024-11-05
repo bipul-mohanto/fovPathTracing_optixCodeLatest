@@ -19,8 +19,8 @@
 
 const int inner_radius = 74;//148;
 const int outer_radius = 241;//482;
-#define FOV_OFF
-//#define FOV_ON
+//#define FOV_OFF
+#define FOV_ON
 
 template <typename T>
 struct SbtRecord
@@ -92,7 +92,7 @@ void SampleRenderer::render()
     // launchParams.c.x, launchParams.c.y);//512, 512);
     launchParams.frame.r_outer = 1000000000;
     launchParams.frame.r_inner = 0;//356;//200; outer_radius 
-    launchParams.samples_per_launch = 32;
+    launchParams.samples_per_launch = 4;
     launchParams.frame.offset = make_uint2(0, 0);
     launchParams.frame.redraw = 0; //0 sv
 

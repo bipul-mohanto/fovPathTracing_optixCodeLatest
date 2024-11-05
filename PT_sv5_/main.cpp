@@ -193,7 +193,7 @@ extern "C" int main(int ac, char** av)
 * @Test Models
 */
 #if defined(CRYTEK_SPONZA)
-    Model* model = loadOBJ("C:/Users/local-admin/Desktop/PRayGround/resources/model/crytek_sponza/sponza.obj");
+    Model* model = loadOBJ("F:/PRayGround/resources/OBJ/crytek_sponza/sponza.obj");
 #elif defined(SAN_MIGUEL)    
     Model* model = loadOBJ("C:/Users/local-admin/Desktop/PRayGround/resources/model/San_Miguel/san-miguel.obj");
 #elif defined(LOST_EMPIRE)
